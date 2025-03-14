@@ -3,7 +3,7 @@ import pandas as pd
 
 
 A = pd.DataFrame(np.random.randint(0, 10, (2, 2)))
-B = pd.DataFrame(np.random.randint(0, 10, (3, 3)))
+B = pd.DataFrame(np.random.randint(1, 10, (3, 3))) #나눗셈시 0 방지
 
 print("DataFrame A \n", A)
 print("DataFrame B \n", B)

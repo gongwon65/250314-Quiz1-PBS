@@ -13,6 +13,9 @@ sns_plot_size = sns.countplot(df, x='size')
 # x축은 "total_bill", y축은 "tip", 차트의 종류는 "resid"으로 하여 jointplot을 그림
 g = sns.jointplot(df, x='total_bill', y='tip', kind='resid')
 
+
+
+
 # 출력을 위한 함수
 fig = sns_plot_size.get_figure()
 fig.savefig("plot_siz.png")
