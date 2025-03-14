@@ -35,8 +35,6 @@ def main():
     # figure를 "plot.png"라는 이름으로 저장하세요.
     None
     
-    # 엘리스 플랫폼에서 그래프를 출력하기 위한 코드입니다.
-    elice_utils.send_image("plot.png")
 
 if __name__ == "__main__":
     main()
